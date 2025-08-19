@@ -1,0 +1,36 @@
+
+=== Factura #1 ===
+Fecha: 14-08-2025 20:07:04
+Cliente: Angelo Sotomayor
+Cédula: 1-1557-0969
+Teléfono: 8320-7861
+Correo: assv.9330@gmail.com
+Dirección: San José, Moravia
+
+Items:
+Descripción  Talla      Color     Cantidad  Precio       Total       
+-------------------------------------------------------------------
+Camisa       Small      Azul      1         ¢3000,00     ¢3000,00    
+Pantalón     Medium     Negro     1         ¢8000,00     ¢8000,00    
+Suéter       Large      Blanco    1         ¢9000,00     ¢9000,00    
+
+Total del pedido: ¢20000.0
+===========================
+
+=== Factura #2 ===
+Fecha: 14-08-2025 20:09:01
+Cliente: Jahayra Calderón
+Cédula: 1-0984-0592
+Teléfono: 8449-8939
+Correo: jcalderonc.0608@gmail.com
+Dirección: Desamparados, Dos Cercas
+
+Items:
+Descripción  Talla      Color     Cantidad  Precio       Total       
+-------------------------------------------------------------------
+Vestido      Large      Rojo      1         ¢15000,00    ¢15000,00   
+Vestido      Large      Rojo      1         ¢15000,00    ¢15000,00   
+
+Total del pedido: ¢30000.0
+===========================
+

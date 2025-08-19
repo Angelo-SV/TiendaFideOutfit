@@ -1,0 +1,5 @@
+Camisa|Hombre|Small|Azul|001|8|3000.0|45000.0
+Vestido|Mujer|Large|Rojo|003|15|15000.0|300000.0
+Pantalón|Hombre|Medium|Negro|002|0|8000.0|80000.0
+Blusa|Mujer|Medium|Verde|004|6|4500.0|54000.0
+Suéter|Hombre|Large|Blanco|005|4|9000.0|63000.0
