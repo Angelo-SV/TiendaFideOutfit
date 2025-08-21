@@ -1,4 +1,4 @@
-# 🛍️ Tienda FideOutfit
+# Tienda FideOutfit
 
 Pequeña aplicación de escritorio en **Java (Swing)** que simula una tienda de ropa muy sencilla con gestión de clientes, inventario, carrito de compras y pedidos.  
 Este proyecto forma parte de mi portafolio y lo desarrollé con el objetivo de **poner en práctica los fundamentos de la programación orientada a objetos (POO)**, el manejo de persistencia en archivos y la construcción de interfaces gráficas amigables.
@@ -44,7 +44,39 @@ Datos/                     # Archivos .txt donde se almacenan clientes, inventar
 
 ## 📸 Capturas de pantalla
 
-```markdown
-![Pantalla de inicio](./screenshots/inicio.png)
-![Gestión de clientes](./screenshots/clientes.png)
-![Carrito de compras](./screenshots/carrito.png)
+### Pantalla principal
+<p align="center">
+  <img src="assets/Ventana Inicio.png" alt="Pantalla principal" width="600"/>
+</p>
+
+### Perfil Administrador
+<p align="center">
+  <img src="assets/VentanaAdministrador.png" alt="Gestión de clientes" width="600"/>
+</p>
+
+### Gestión Clientes
+<p align="center">
+  <img src="assets/VentanaClientes.png" alt="Carrito de compras" width="600"/>
+</p>
+
+### 📦 Gestión Inventario
+<p align="center">
+  <img src="assets/VentanaInventario.png" alt="Registro de pedidos" width="600"/>
+</p>
+
+---
+
+## 📦 Descargar la aplicación
+
+Se puede  descargar una versión compilada de **TiendaFideoutfit** desde la sección de [Releases](../../releases).
+
+➡️ [**Descargar TiendaFideoutfit v1.0.0**](https://github.com/Angelo-SV/TiendaFideOutfit/releases/download/v1.0/TiendaFideOutfit.zip)
+
+### 🔧 Instrucciones de ejecución
+
+1. Descarga el archivo `.zip` desde el enlace anterior.
+2. Extrae el contenido en cualquier carpeta de tu PC.
+3. Dentro de la carpeta encontrarás un archivo ejecutable (`TiendaFideoutfit.exe`).
+4. **No es necesario instalar Java**, ya que la aplicación incluye la JVM embebida.
+5. Haz doble clic en el ejecutable para iniciar la aplicación.
+
