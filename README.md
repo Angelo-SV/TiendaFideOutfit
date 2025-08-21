@@ -29,7 +29,7 @@ Este proyecto me permitió afianzar la lógica de negocio de un sistema de venta
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 ```plaintext
 src/
@@ -42,37 +42,67 @@ Datos/                     # Archivos .txt donde se almacenan clientes, inventar
 
 ---
 
-## 📸 Capturas de pantalla
+## Capturas de pantalla
 
 ### Pantalla principal
 <p align="center">
-  <img src="assets/Ventana Inicio.png" alt="Pantalla principal" width="600"/>
+  <img src="assets/Ventana Inicio.png" alt="Pantalla principal" width="400"/>
 </p>
 
 ### Perfil Administrador
 <p align="center">
-  <img src="assets/VentanaAdministrador.png" alt="Gestión de clientes" width="600"/>
+  <img src="assets/VentanaAdministrador.png" alt="Gestión de clientes" width="400"/>
 </p>
 
 ### Gestión Clientes
 <p align="center">
-  <img src="assets/VentanaClientes.png" alt="Carrito de compras" width="600"/>
+  <img src="assets/VentanaClientes.png" alt="Carrito de compras" width="400"/>
 </p>
 
-### 📦 Gestión Inventario
+### Gestión Inventario
 <p align="center">
-  <img src="assets/VentanaInventario.png" alt="Registro de pedidos" width="600"/>
+  <img src="assets/VentanaInventario.png" alt="Registro de pedidos" width="400"/>
+</p>
+
+### Gestión Pedidos
+<p align="center">
+  <img src="assets/VentanaPedidos.png" alt="Registro de pedidos" width="400"/>
+</p>
+
+### Tienda
+<p align="center">
+  <img src="assets/VentanaTienda.png" alt="Registro de pedidos" width="400"/>
+</p>
+
+### Selección de Prenda
+<p align="center">
+  <img src="assets/VentanaPrendas.png" alt="Registro de pedidos" width="400"/>
+</p>
+
+### Carrito
+<p align="center">
+  <img src="assets/VentanaCarrito.png" alt="Registro de pedidos" width="400"/>
+</p>
+
+### Confirmación de Compra
+<p align="center">
+  <img src="assets/VentanaConfirmacionCompra.png" alt="Registro de pedidos" width="400"/>
+</p>
+
+### Factura
+<p align="center">
+  <img src="assets/VentanaDetallePedido.png" alt="Registro de pedidos" width="400"/>
 </p>
 
 ---
 
-## 📦 Descargar la aplicación
+## Descargar la aplicación
 
 Se puede  descargar una versión compilada de **TiendaFideoutfit** desde la sección de [Releases](../../releases).
 
-➡️ [**Descargar TiendaFideoutfit v1.0.0**](https://github.com/Angelo-SV/TiendaFideOutfit/releases/download/v1.0/TiendaFideOutfit.zip)
+[**Descargar TiendaFideoutfit v1.0.0**](https://github.com/Angelo-SV/TiendaFideOutfit/releases/download/v1.0/TiendaFideOutfit.zip)
 
-### 🔧 Instrucciones de ejecución
+### Instrucciones de ejecución
 
 1. Descarga el archivo `.zip` desde el enlace anterior.
 2. Extrae el contenido en cualquier carpeta de tu PC.
