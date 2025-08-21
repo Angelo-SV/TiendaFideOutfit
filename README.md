@@ -19,7 +19,7 @@ Este proyecto me permitió afianzar la lógica de negocio de un sistema de venta
 
 ---
 
-## ⚙️ Funcionalidades principales
+## Funcionalidades principales
 
 - **Gestión de clientes**: registrar, editar y listar clientes desde interfaz.
 - **Gestión de inventario**: añadir, editar y eliminar prendas; listado automático al abrir la ventana.
@@ -46,52 +46,52 @@ Datos/                     # Archivos .txt donde se almacenan clientes, inventar
 
 ### Pantalla principal
 <p align="center">
-  <img src="assets/Ventana Inicio.png" alt="Pantalla principal" width="400"/>
+  <img src="assets/Ventana Inicio.png" alt="Pantalla principal" width="500"/>
 </p>
 
 ### Perfil Administrador
 <p align="center">
-  <img src="assets/VentanaAdministrador.png" alt="Gestión de clientes" width="400"/>
+  <img src="assets/VentanaAdministrador.png" alt="Gestión de clientes" width="500"/>
 </p>
 
 ### Gestión Clientes
 <p align="center">
-  <img src="assets/VentanaClientes.png" alt="Carrito de compras" width="400"/>
+  <img src="assets/VentanaClientes.png" alt="Carrito de compras" width="500"/>
 </p>
 
 ### Gestión Inventario
 <p align="center">
-  <img src="assets/VentanaInventario.png" alt="Registro de pedidos" width="400"/>
+  <img src="assets/VentanaInventario.png" alt="Registro de pedidos" width="500"/>
 </p>
 
 ### Gestión Pedidos
 <p align="center">
-  <img src="assets/VentanaPedidos.png" alt="Registro de pedidos" width="400"/>
+  <img src="assets/VentanaPedidos.png" alt="Registro de pedidos" width="500"/>
 </p>
 
 ### Tienda
 <p align="center">
-  <img src="assets/VentanaTienda.png" alt="Registro de pedidos" width="400"/>
+  <img src="assets/VentanaTienda.png" alt="Registro de pedidos" width="500"/>
 </p>
 
 ### Selección de Prenda
 <p align="center">
-  <img src="assets/VentanaPrendas.png" alt="Registro de pedidos" width="400"/>
+  <img src="assets/VentanaPrendas.png" alt="Registro de pedidos" width="500"/>
 </p>
 
 ### Carrito
 <p align="center">
-  <img src="assets/VentanaCarrito.png" alt="Registro de pedidos" width="400"/>
+  <img src="assets/VentanaCarrito.png" alt="Registro de pedidos" width="500"/>
 </p>
 
 ### Confirmación de Compra
 <p align="center">
-  <img src="assets/VentanaConfirmacionCompra.png" alt="Registro de pedidos" width="400"/>
+  <img src="assets/VentanaConfirmaciónCompra.png" alt="Registro de pedidos" width="500"/>
 </p>
 
 ### Factura
 <p align="center">
-  <img src="assets/VentanaDetallePedido.png" alt="Registro de pedidos" width="400"/>
+  <img src="assets/VentanaDetallePedido.png" alt="Registro de pedidos" width="500"/>
 </p>
 
 ---
