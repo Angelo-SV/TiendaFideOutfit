@@ -107,6 +107,8 @@ Se puede  descargar una versión compilada de **TiendaFideoutfit** desde la secc
 1. Descarga el archivo `.zip` desde el enlace anterior.
 2. Extrae el contenido en cualquier carpeta de tu PC.
 3. Dentro de la carpeta encontrarás un archivo ejecutable (`TiendaFideoutfit.exe`).
-4. No es necesario instalar Java, ya que la aplicación incluye la JVM embebida.
+4. No es necesario instalar Java, ya que la aplicación incluye la JVM embebida. Nota: ¡no borrar la carpeta de Datos!.
 5. Doble clic en el ejecutable para iniciar la aplicación.
-
+6. Para ingresar al módulo administrador utiliza las siguientes credenciales:
+- **Usuario:** `admin`  
+- **Contraseña:** `admin`
