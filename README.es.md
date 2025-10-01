@@ -51,47 +51,47 @@ Datos/                     # Archivos .txt donde se almacenan clientes, inventar
 
 ### Perfil Administrador
 <p align="center">
-  <img src="assets/VentanaAdministrador.png" alt="Gestión de clientes" width="500"/>
+  <img src="assets/VentanaAdministrador.png" alt="Perfil Administrador" width="500"/>
 </p>
 
 ### Gestión Clientes
 <p align="center">
-  <img src="assets/VentanaClientes.png" alt="Carrito de compras" width="500"/>
+  <img src="assets/VentanaClientes.png" alt="Gestión Clientes" width="500"/>
 </p>
 
 ### Gestión Inventario
 <p align="center">
-  <img src="assets/VentanaInventario.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaInventario.png" alt="Gestión Inventario" width="500"/>
 </p>
 
 ### Gestión Pedidos
 <p align="center">
-  <img src="assets/VentanaPedidos.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaPedidos.png" alt="Gestión Pedidos" width="500"/>
 </p>
 
 ### Tienda
 <p align="center">
-  <img src="assets/VentanaTienda.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaTienda.png" alt="Tienda" width="500"/>
 </p>
 
 ### Selección de Prenda
 <p align="center">
-  <img src="assets/VentanaPrendas.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaPrendas.png" alt="Selección de Prenda" width="500"/>
 </p>
 
 ### Carrito
 <p align="center">
-  <img src="assets/VentanaCarrito.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaCarrito.png" alt="Carrito" width="500"/>
 </p>
 
 ### Confirmación de Compra
 <p align="center">
-  <img src="assets/VentanaConfirmaciónCompra.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaConfirmaciónCompra.png" alt="Confirmación de Compra" width="500"/>
 </p>
 
 ### Factura
 <p align="center">
-  <img src="assets/VentanaDetallePedido.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaDetallePedido.png" alt="Factura" width="500"/>
 </p>
 
 ---
@@ -112,3 +112,11 @@ Se puede  descargar una versión compilada de **TiendaFideoutfit** desde la secc
 6. Para ingresar al módulo administrador utiliza las siguientes credenciales:
 - **Usuario:** `admin`  
 - **Contraseña:** `admin`
+  
+---
+
+## Lenguaje
+
+Este README está disponible en:  
+- [English](README.md)  
+- [Español](README.es.md)
