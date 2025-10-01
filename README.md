@@ -1,122 +1,122 @@
 # Tienda FideOutfit
 
-Pequeña aplicación de escritorio en **Java (Swing)** que simula una tienda de ropa muy sencilla con gestión de clientes, inventario, carrito de compras y pedidos.  
-Este proyecto forma parte de mi portafolio y lo desarrollé con el objetivo de **poner en práctica los fundamentos de la programación orientada a objetos (POO)**, el manejo de persistencia en archivos y la construcción de interfaces gráficas amigables.
+Small **Java (Swing)** desktop application that simulates a simple clothing store with customer management, inventory, shopping cart, and order processing.  
+This project is part of my portfolio and was developed with the goal of **practicing object-oriented programming (OOP) fundamentals**, file-based persistence, and the creation of user-friendly graphical interfaces.
 
 ---
 
-## Sobre el proyecto
+## About the project
 
-La **Tienda FideOutfit** es un sistema básico de gestión para una tienda de ropa. Aunque no está conectado a una base de datos, aprovecha el almacenamiento en archivos `.txt` para simular la persistencia de datos, lo cual resulta útil como práctica inicial antes de migrar a sistemas más complejos.  
+**Tienda FideOutfit** is a basic management system for a clothing store. Although it is not connected to a database, it uses `.txt` files to simulate data persistence, which is very useful for practice before moving to more complex systems.  
 
-Durante el desarrollo apliqué conceptos clave como:  
-- **Encapsulamiento y modularidad**: cada entidad (Cliente, Prenda, ItemCarrito, Pedido) se modeló en su propia clase.  
-- **Separación de lógica y presentación**: la lógica de negocio está en clases `Gestion`, mientras que las interfaces gráficas están en el paquete `vistas`.  
-- **Persistencia simple**: lectura y escritura de datos en archivos `.txt` para registrar clientes, inventario y pedidos.  
-- **Buenas prácticas de programación**: uso de métodos claros, validaciones de entrada, y manejo básico de errores.  
+During the development, I applied key concepts such as:  
+- **Encapsulation and modularity**: each entity (Customer, Clothing Item, Cart Item, Order) was modeled in its own class.  
+- **Separation of logic and presentation**: business logic is placed in `Gestion` classes, while graphical interfaces are in the `vistas` package.  
+- **Simple persistence**: data is stored in `.txt` files to register customers, inventory, and orders.  
+- **Good programming practices**: clear methods, input validation, and basic error handling.  
 
-Este proyecto me permitió afianzar la lógica de negocio de un sistema de ventas y comprender cómo organizar un programa en capas simples.
-
----
-
-## Funcionalidades principales
-
-- **Gestión de clientes**: registrar, editar y listar clientes desde interfaz.
-- **Gestión de inventario**: añadir, editar y eliminar prendas; listado automático al abrir la ventana.
-- **Carrito de compras**: selección de prendas, cantidades, cálculo de totales por ítem y acumulado.
-- **Gestión de pedidos**: registro de compra final con cliente asociado y almacenamiento en archivo.
-- **Persistencia en archivos**: todos los datos se guardan en la carpeta /Datos en formato .txt.
+This project helped me strengthen my understanding of business logic for sales systems and how to organize a program into simple layers.
 
 ---
 
-## Estructura del proyecto
+## Main features
+
+- **Customer management**: register, edit, and list customers from the GUI.  
+- **Inventory management**: add, edit, and remove clothing items; automatic listing when opening the window.  
+- **Shopping cart**: select items, set quantities, and calculate per-item and total amounts.  
+- **Order management**: finalize purchase, associate with a customer, and save to file.  
+- **File persistence**: all data is saved into the `/Datos` folder in `.txt` format.  
+
+---
+
+## Project structure
 
 ```plaintext
 src/
  └── tiendafideoutfit/
-      ├── modelos/        # Clases de entidad (Cliente, Prenda, ItemCarrito, Pedido, etc.)
-      ├── gestion/        # Lógica de negocio (GestionCliente, GestionPrenda, GestionCarrito, GestionPedido)
-      └── vistas/         # Interfaces gráficas (Swing)
-Datos/                     # Archivos .txt donde se almacenan clientes, inventario y pedidos
+      ├── modelos/        # Entity classes (Customer, Clothing Item, Cart Item, Order, etc.)
+      ├── gestion/        # Business logic (GestionCliente, GestionPrenda, GestionCarrito, GestionPedido)
+      └── vistas/         # Graphical interfaces (Swing)
+Datos/                     # .txt files used to store customers, inventory, and orders
 ```
 
 ---
 
 ## Capturas de pantalla
 
-### Pantalla principal
+### Main Window
 <p align="center">
-  <img src="assets/Ventana Inicio.png" alt="Pantalla principal" width="500"/>
+  <img src="assets/Ventana Inicio.png" alt="Main Window" width="500"/>
 </p>
 
-### Perfil Administrador
+### Admin Profile
 <p align="center">
-  <img src="assets/VentanaAdministrador.png" alt="Gestión de clientes" width="500"/>
+  <img src="assets/VentanaAdministrador.png" alt="Admin Profile" width="500"/>
 </p>
 
-### Gestión Clientes
+### Customer Management
 <p align="center">
-  <img src="assets/VentanaClientes.png" alt="Carrito de compras" width="500"/>
+  <img src="assets/VentanaClientes.png" alt="Customer Management" width="500"/>
 </p>
 
-### Gestión Inventario
+### Inventory Management
 <p align="center">
-  <img src="assets/VentanaInventario.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaInventario.png" alt="Inventory Management" width="500"/>
 </p>
 
-### Gestión Pedidos
+### Orders Management
 <p align="center">
-  <img src="assets/VentanaPedidos.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaPedidos.png" alt="Orders Management" width="500"/>
 </p>
 
-### Tienda
+### Store View
 <p align="center">
-  <img src="assets/VentanaTienda.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaTienda.png" alt="Store View" width="500"/>
 </p>
 
-### Selección de Prenda
+### Item Selection
 <p align="center">
-  <img src="assets/VentanaPrendas.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaPrendas.png" alt="Item Selection" width="500"/>
 </p>
 
-### Carrito
+### Shopping Cart
 <p align="center">
-  <img src="assets/VentanaCarrito.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaCarrito.png" alt="Shopping Cart" width="500"/>
 </p>
 
-### Confirmación de Compra
+### Purchase Confirmation
 <p align="center">
-  <img src="assets/VentanaConfirmaciónCompra.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaConfirmaciónCompra.png" alt="Purchase Confirmation" width="500"/>
 </p>
 
-### Factura
+### Invoice
 <p align="center">
-  <img src="assets/VentanaDetallePedido.png" alt="Registro de pedidos" width="500"/>
+  <img src="assets/VentanaDetallePedido.png" alt="Invoice" width="500"/>
 </p>
 
 ---
 
-## Descargar la aplicación
+## Download the application
 
-Se puede  descargar una versión compilada de **TiendaFideoutfit** desde la sección de [Releases](../../releases).
+You can download a compiled version of **TiendaFideoutfit** from the [Releases](../../releases) section.
 
-[**Descargar TiendaFideoutfit v1.0.0**](https://github.com/Angelo-SV/TiendaFideOutfit/releases/download/v1.0/TiendaFideOutfit.zip)
+[**Download TiendaFideoutfit v1.0.0**](https://github.com/Angelo-SV/TiendaFideOutfit/releases/download/v1.0/TiendaFideOutfit.zip)
 
-### Instrucciones de ejecución
+### Execution instructions
 
-1. Descarga el archivo `.zip` desde el enlace anterior.
-2. Extrae el contenido en cualquier carpeta de tu PC.
-3. Dentro de la carpeta encontrarás un archivo ejecutable (`TiendaFideoutfit.exe`).
-4. No es necesario instalar Java, ya que la aplicación incluye la JVM embebida. Nota: ¡no borrar la carpeta de Datos!.
-5. Doble clic en el ejecutable para iniciar la aplicación.
-6. Para ingresar al módulo administrador utiliza las siguientes credenciales:
-- **Usuario:** `admin`  
-- **Contraseña:** `admin`
+1. Download the `.zip` file from the link above.
+2. Extract the content into any folder on your PC.
+3. Inside the folder, you will find an executable file (`TiendaFideoutfit.exe`).
+4. Java installation is not required, since the application includes an embedded JVM. Note: do not delete the Datos folder!
+5. Double click the executable to start the application.
+6. To access the administrator module, use the following credentials:
+- **Username:** `admin`  
+- **Password:** `admin`  
 
 ---
 
-## Lenguaje
+## Multilanguage
 
-Este README está disponible en:  
+This README is available in:  
 - [English](README.md)  
 - [Español](README.es.md)
