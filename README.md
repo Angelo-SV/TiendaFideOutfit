@@ -112,3 +112,11 @@ Se puede  descargar una versión compilada de **TiendaFideoutfit** desde la secc
 6. Para ingresar al módulo administrador utiliza las siguientes credenciales:
 - **Usuario:** `admin`  
 - **Contraseña:** `admin`
+
+---
+
+## Lenguaje
+
+Este README está disponible en:  
+- [English](README.md)  
+- [Español](README.es.md)
